@@ -1,15 +1,14 @@
 ## Thanh Nguyen - Coding Test
 
 We have CSV file which has the following columns:
-    - timestamp: Integer number of seconds since the Epoch
-    - transaction_type: Either a DEPOSIT or a WITHDRAWAL
-    - token: The token symbol
-    - amount: The amount transacted
+- timestamp: Integer number of seconds since the Epoch
+- transaction_type: Either a DEPOSIT or a WITHDRAWAL
+- token: The token symbol
+- amount: The amount transacted
 
 This program will import and export to a new CSV file with 2 columns:
-
-    - token: The token symbol
-    - portfolio: the balance of the token where you need to add deposits and subtract withdrawals. The value is converted to USD
+- token: The token symbol
+- portfolio: the balance of the token where you need to add deposits and subtract withdrawals. The value is converted to USD
 
 ## How to install
 $ npm i
