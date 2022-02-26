@@ -1,10 +1,8 @@
-
-
 export const groupAndSumByToken = (array) => {
     let result = [];
     const withdrawl = 'WITHDRAWAL';
 
-    array.reduce(function(res, value) {
+    array.reduce((res, value) => {
         if (!res[value.token]) {
             res[value.token] = { token: value.token, portfolio: 0 };
             result.push(res[value.token])
