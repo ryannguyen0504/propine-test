@@ -1,6 +1,6 @@
 ## Thanh Nguyen - Coding Test
 
-We have CSV file which has the following columns:
+We have a CSV file which has the following columns:
 - timestamp: Integer number of seconds since the Epoch
 - transaction_type: Either a DEPOSIT or a WITHDRAWAL
 - token: The token symbol
